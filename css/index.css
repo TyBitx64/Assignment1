@@ -1,0 +1,84 @@
+/*
+Name: Tyson Bauld
+      Assignment1
+*/
+
+body{
+    width: 1000;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding:20px;
+}
+header, footer{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: goldenrod;
+}
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 251, 229);
+}
+main{
+    text-align: center;
+    width:820px;
+    float:left;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 3px;
+    margin:0px 20px 0px 20px;
+}
+aside{
+    width:240px;
+    float:left;
+    padding:5px;
+    margin:0px 20px 0px 20px;
+    border:1px solid black;
+    border-radius: 3px;
+}
+aside h2{
+    text-align: center;
+}
+aside ul li{
+    list-style: none;
+    line-height: 2;
+}
+aside ul li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+aside ul li a:hover{
+    color:lightgreen;
+}
+body section{
+    clear:both;
+}
+figcaption{
+    text-align: left;
+    font-weight: bold;
+    font-size: smaller;
+    font-variant: small-caps;
+}
+.mainimg{
+    border: 3px solid palegreen;
+    border-radius: 10px;
+}
+#nikolatesla{
+    position: relative;
+    left: 10px;
+}
+#nikolatesla figcaption{
+    margin-left: 128px;
+}
+
+#wardenclyffe{
+    position: absolute;
+    top: 440px;
+    right: 20px;
+}
+q {
+    font-family: cursive;
+    font-style: italic;
+}
